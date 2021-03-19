@@ -1,0 +1,38 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    #container {
+        width: 100vw;
+        padding: 15px;
+    }
+    .ativo {
+        background-color: #f1f6fc !important;
+    }
+    .ativo h6 {
+        font-size: 2.5rem;
+    }
+    #um div#container {
+        padding-top: 230px;
+    }
+    #um {
+        background-image: url(/images/banner-topo-768px.jpg);
+        background-position: bottom;
+        background-size: cover;
+        height: 60vh;
+    }
+    #dois {
+        margin-top: -60px;
+    }
+    h2.subtitle {
+        font-size: 2.5rem;
+    }
+
+    #contato {
+        background-image: url(/images/banner-rodape-992px.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #contato h6 {
+        text-align: center;
+        color: #fff;
+        margin: 50px 0;
+    }
+}

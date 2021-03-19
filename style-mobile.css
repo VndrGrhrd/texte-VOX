@@ -1,0 +1,130 @@
+@media (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+    header#menu {
+        position: absolute;
+    }
+    #container {
+        width: 80%;
+    }
+    #menu {
+        display: block;
+    }
+    #menu #container {
+        padding: 0;
+        width: 85%;
+    }
+    #button-menu {
+        display: block;
+        float: right;
+        margin-top: -20px;
+    }
+    #button-menu::before {
+        content: '';
+        margin-right: 5px;
+        display: inline-block;
+        height: 3px;
+        width: 23px;
+        background-color: #4f6533;
+        box-shadow: 0px 8px #4f6533, 0 -7px #4f6533;
+        transition: transform 0.3s;
+    }
+    #button-menu-close {
+        font-size: 2.3rem;
+        color: #fff;
+        width: max-content;
+        border: 2px solid #fff;
+        padding: 4px 8px;
+        border-radius: 100%;
+        float: right;
+    }
+    .mobile-container.open {
+        display: block;
+    }
+    .mobile-container.close {
+        display: none;
+    }
+    .mobile-container {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: #4f6533;
+        top: 0;
+        left: 0;
+    }
+    .mobile-container div {
+        clear: both;
+    }
+    h6 {
+        font-size: 2rem;
+        color: #4f6533;
+        text-align: left;
+    }
+    #menu .flex {
+        flex-direction: row;
+    }
+    #menu ul.flex {
+        flex-direction: column;
+    }
+    li svg path {
+        color: #fff;
+        fill: #fff !important;
+    }
+    #um div#container {
+        padding-top: 60px;
+    }
+    ul.flex {
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    .face svg {
+        width: 35px;
+    }
+
+    svg {
+        width: 56px;
+    }
+    #menu ul.flex li {
+        padding: 25px 0;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+    #um {
+        background-image: url(/images/banner-topo-768px2.jpg);
+        background-position: bottom;
+        background-size: cover;
+        height: 90vh;
+    }
+    h1.primary-title {
+        font-size: 2.5rem;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    p.paragrafer {
+        font-size: 0.6rem;
+    }
+
+    #dois {
+        background-color: #eca73f;
+    }
+    h2.subtitle {
+        font-size: 2rem;
+    }
+    h2.subtitle2 {
+        font-size: 1.4rem;
+    }
+
+    #contato {
+        background-image: url(/images/banner-rodape-768px.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    label {
+        text-align: left;
+    }
+}
